@@ -9,7 +9,7 @@ The notebooks are in Python and based on the software [Pinocchio](https://github
 ## Set up 
 
 ### On a DICE machine
-On DICE, we will clone the [tutorials repository](https://github.com/ediaro23/tutorials) and install the required [dependencies](https://github.com/ediaro23/tutorials/blob/main/requirements.txt) to run the tutorials. 
+On DICE, we will clone the [tutorials repository](https://github.com/ediadvancedrobotics/tutorials) and install the required [dependencies](https://github.com/ediadvancedrobotics/tutorials/blob/main/requirements.txt) to run the tutorials. 
 You can "clone" the project to a local folder of your choice.
 Open a terminal (CTRL + ALT + T) and follow the commands below:
 
@@ -22,13 +22,13 @@ cd ~
 -   Create the aro23 directory if not already done
 
 ```bash
-mkdir -p aro23 && cd aro23
+mkdir -p aro && cd aro
 ```
 
 - Clone the tutorials inside your home directory.
 
 ```bash 
-git clone https://github.com/ediaro23/tutorials/
+git clone https://github.com/ediadvancedrobotics/tutorials/
 ```
 
 - Install dependencies
@@ -57,7 +57,7 @@ TBD...
 ### Running a notebook
 On your terminal, cd into the tutorials folder:
 ```bash
-cd  ~/aro23/tutorials/
+cd  ~/aro/tutorials/
 ```
 Now run Jupyter notebook with the command
 ```bash
