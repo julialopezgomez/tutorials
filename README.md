@@ -19,7 +19,7 @@ Open a terminal (CTRL + ALT + T) and follow the commands below:
 cd ~
 ```
   
--   Create the aro23 directory if not already done
+-   Create the aro directory if not already done
 
 ```bash
 mkdir -p aro && cd aro
